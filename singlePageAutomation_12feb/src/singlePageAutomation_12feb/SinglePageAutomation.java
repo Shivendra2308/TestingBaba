@@ -24,10 +24,7 @@ public class SinglePageAutomation {
 	  driver.findElement(By.xpath("//*[@id=\"paddresh1\"]")).sendKeys("New delhi, ashok nagar");
 driver.findElement(By.xpath("//*[@id=\"tab_1\"]/div/div[1]/form/input[3]")).click();
 List<WebElement> list = driver.findElements(By.xpath("//*[@id=\"tab_1\"]/div/div[2]/label"));
-	for(int i=0; i<list.size(); i++)
-	{
-		
-	}
+	
 	}
 }
 
